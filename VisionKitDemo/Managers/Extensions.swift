@@ -11,6 +11,13 @@ extension Date {
     }
 }
 
+extension Array {
+    func subArray(withSize n: Int) -> [Element] {
+        precondition(n >= 0 && n <= count)
+        return (0..<n).map { self[($0 * count + count/2)/n] }
+    }
+}
+
 extension String {
     func loadImageFromDiskWith() -> UIImage? {
         

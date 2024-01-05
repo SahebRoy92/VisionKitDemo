@@ -55,7 +55,8 @@ class AllActionsViewController : UIViewController {
     func getValues() {
         allActions = ([
             AllActionsModel(title: "Document Scan",action: .doc),
-            AllActionsModel(title: "Data Scan",action: .data)
+            AllActionsModel(title: "Data Scan",action: .data),
+            AllActionsModel(title: "Face Detection",action: .faceDetec)
         ])
         populate()
     }
@@ -86,6 +87,8 @@ extension AllActionsViewController: UITableViewDelegate {
             self.performSegue(withIdentifier: "DocumentScanner", sender: self)
         } else if action.action == .data{
             self.performSegue(withIdentifier: "CustomDataScannerViewController", sender: self)
+        } else if action.action == .faceDetec {
+            self.performSegue(withIdentifier: "FaceDetectionViewController", sender: self)
         }
     }
 }
@@ -98,6 +101,7 @@ struct AllActionsModel : Hashable {
     enum Action {
         case doc
         case data
+        case faceDetec
     }
 }
 

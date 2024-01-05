@@ -47,7 +47,7 @@ class ResultViewController: UIViewController {
     
     
     @IBAction func nextDocAction(_ sender: Any) {
-        if currentDocIndex == allDocuments.count - 1 {
+        if currentDocIndex == allDocuments.count - 2 {
             btnNext.isHidden = true
         }
         btnPrev.isHidden = false

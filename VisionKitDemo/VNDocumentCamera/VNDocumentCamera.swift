@@ -12,7 +12,7 @@ class VNDocumentCamera: UIViewController {
     
     lazy var startCamera : UIButton = {
        let button = UIButton()
-        button.setTitle("Start Camera", for: .normal)
+        button.setTitle("Start Document Scanning", for: .normal)
         button.addTarget(self, action: #selector(startCameraAction), for: .touchUpInside)
         button.translatesAutoresizingMaskIntoConstraints = false
         return button

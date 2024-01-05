@@ -23,6 +23,7 @@
                     <connections>
                         <segue destination="Idt-mW-hvQ" kind="show" identifier="DocumentScanner" id="zxG-e9-IAT"/>
                         <segue destination="TJp-cd-b1D" kind="show" identifier="CustomDataScannerViewController" id="pno-dA-nBX"/>
+                        <segue destination="Jv5-TB-gMo" kind="show" identifier="FaceDetectionViewController" id="lqh-c2-XZy"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jxK-qH-CgM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -224,9 +225,25 @@
             </objects>
             <point key="canvasLocation" x="2969" y="591"/>
         </scene>
+        <!--Face Detection View Controller-->
+        <scene sceneID="b4a-OM-2SW">
+            <objects>
+                <viewController id="Jv5-TB-gMo" customClass="FaceDetectionViewController" customModule="VisionKitDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mOL-BF-9fV">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <viewLayoutGuide key="safeArea" id="B4a-dU-hgb"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="z1f-0T-0gc"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pvd-dY-zGD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1998" y="638"/>
+        </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="UVd-Fh-ti2"/>
+        <segue reference="3xI-q0-ByP"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="scribble" catalog="system" width="128" height="117"/>

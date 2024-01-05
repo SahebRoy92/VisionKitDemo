@@ -20,6 +20,7 @@
 		69C0AC142B47678D002D9869 /* DocumentManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0AC132B47678D002D9869 /* DocumentManager.swift */; };
 		69C0AC172B477321002D9869 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0AC162B477321002D9869 /* ResultViewController.swift */; };
 		69C0AC192B477E03002D9869 /* CustomDataScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0AC182B477E03002D9869 /* CustomDataScannerViewController.swift */; };
+		69C0AC1E2B4814D3002D9869 /* FaceDetectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 69C0AC1D2B4814D3002D9869 /* FaceDetectionViewController.swift */; };
 		D1677D74C9DF44520824A532 /* Pods_VisionKitDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C39213977829EDEFB7F5757 /* Pods_VisionKitDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		69C0AC132B47678D002D9869 /* DocumentManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentManager.swift; sourceTree = "<group>"; };
 		69C0AC162B477321002D9869 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		69C0AC182B477E03002D9869 /* CustomDataScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomDataScannerViewController.swift; sourceTree = "<group>"; };
+		69C0AC1D2B4814D3002D9869 /* FaceDetectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceDetectionViewController.swift; sourceTree = "<group>"; };
 		860D0ABA88FEBD3BA3BA49BD /* Pods-VisionKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionKitDemo.release.xcconfig"; path = "Target Support Files/Pods-VisionKitDemo/Pods-VisionKitDemo.release.xcconfig"; sourceTree = "<group>"; };
 		AD312A55D3790EC1CA86AA37 /* Pods-VisionKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VisionKitDemo.debug.xcconfig"; path = "Target Support Files/Pods-VisionKitDemo/Pods-VisionKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +88,7 @@
 		6913A89F2B4741270069B5CF /* VisionKitDemo */ = {
 			isa = PBXGroup;
 			children = (
+				69C0AC1C2B4814C6002D9869 /* Face Detection */,
 				69C0AC152B47730F002D9869 /* Result */,
 				69C0AC102B4766E2002D9869 /* Models */,
 				69C0AC092B475C48002D9869 /* Managers */,
@@ -150,6 +153,14 @@
 				69C0AC162B477321002D9869 /* ResultViewController.swift */,
 			);
 			path = Result;
+			sourceTree = "<group>";
+		};
+		69C0AC1C2B4814C6002D9869 /* Face Detection */ = {
+			isa = PBXGroup;
+			children = (
+				69C0AC1D2B4814D3002D9869 /* FaceDetectionViewController.swift */,
+			);
+			path = "Face Detection";
 			sourceTree = "<group>";
 		};
 		6EBB2A183F13E79D49576EE4 /* Frameworks */ = {
@@ -281,6 +292,7 @@
 				69C0AC142B47678D002D9869 /* DocumentManager.swift in Sources */,
 				6913A8A32B4741270069B5CF /* SceneDelegate.swift in Sources */,
 				69C0AC122B4766EA002D9869 /* Document.swift in Sources */,
+				69C0AC1E2B4814D3002D9869 /* FaceDetectionViewController.swift in Sources */,
 				69C0AC082B474D40002D9869 /* AllActionsViewController.swift in Sources */,
 				69C0AC192B477E03002D9869 /* CustomDataScannerViewController.swift in Sources */,
 				69C0AC0D2B475D4F002D9869 /* Extensions.swift in Sources */,
