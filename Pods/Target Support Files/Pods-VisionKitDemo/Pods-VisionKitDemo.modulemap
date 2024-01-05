@@ -1,0 +1,6 @@
+framework module Pods_VisionKitDemo {
+  umbrella header "Pods-VisionKitDemo-umbrella.h"
+
+  export *
+  module * { export * }
+}
